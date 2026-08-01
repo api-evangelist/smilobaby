@@ -1,8 +1,25 @@
 aid: smilobaby
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smilobaby.png
 name: Smilobaby
-description: 'Smilobaby is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Smilo (Smilobaby) is a direct-to-consumer baby and toddler products brand founded in 2016
+  and based in Boston, backed by Norwest Venture Partners. Products are developed by doctors, scientists
+  and engineers and sold direct via smilobaby.com, spanning bottle feeding, pacifiers and teethers,
+  pregnancy and nursing, nursery, mealtime and bath. Its hero products are a pediatric-dentist-designed
+  pacifier that supports a baby''s developing palate and a patented-nipple bottle with an extra-sensitive
+  vent that simulates breastfeeding. This is a consumer e-commerce retail brand: it publishes no public
+  developer API, developer portal, or OpenAPI, so the enrichment pass records identity and domain-security
+  posture only.'
 url: https://raw.githubusercontent.com/api-evangelist/smilobaby/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Baby Products
+- Consumer
+- E-Commerce
+- Retail
+- Parenting
+- Direct-to-Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/smilobaby-domain-security.yml
 - type: Website
   url: https://smilobaby.com
+- type: Support
+  url: https://www.smilobaby.com/contact-us/
+- type: PrivacyPolicy
+  url: https://www.smilobaby.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.smilobaby.com/terms-of-use/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
