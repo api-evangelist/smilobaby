@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/smilobaby/integrations
+- https://n8n.io/integrations/smilobaby/
+- https://composio.dev/toolkits/smilobaby
+- https://monid.ai/tools/smilobaby
+checked:
+- https://composio.dev/toolkits/smilobaby
+- https://monid.ai/tools/smilobaby
+- https://n8n.io/integrations/smilobaby/
+- https://zapier.com/apps/smilobaby/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
